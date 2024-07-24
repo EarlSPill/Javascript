@@ -2,7 +2,7 @@
 
 const country = 'Philippines';
 const continent = 'Asia';
-const population = '115,600,000'
+let population = 115600000
 
 console.log(country);
 console.log(continent);
@@ -18,4 +18,18 @@ console.log(typeof country);
 console.log(typeof language);
 
 // let, const, and var
-language = 'Tagalog'
+language = 'Tagalog';
+
+// Basic Operators
+console.log(population /2);
+
+population++
+
+console.log(population);
+console.log(population > 6000000);
+console.log(population < 33000000);
+
+let description = country + ' is in ' + continent + ', and its ' +
+                    population + ' million people speak ' + language + '.';
+
+console.log(description);
